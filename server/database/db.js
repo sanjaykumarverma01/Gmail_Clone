@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config()
 
 
-const DB_URL = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@sanjaycluster.op8h2mp.mongodb.net/gmail`
+const DB_URL = `mongodb+srv://Sanjaykumar:sanjay1222@sanjaycluster.op8h2mp.mongodb.net/gmail`
 
 const Connection = () =>{
     
