@@ -3,8 +3,8 @@ import { Box, Divider, Typography, styled } from "@mui/material";
 const NoMails = ({ message }) => {
   return (
     <Component>
-      <Typography>{message.heading}</Typography>
-      <Typography>{message.subHeading}</Typography>
+      <Typography>{message?.heading}</Typography>
+      <Typography>{message?.subHeading}</Typography>
       <StyledDivider />
     </Component>
   );
