@@ -15,4 +15,12 @@ export const API_URLS = {
     endpoint: "bin",
     method: "POST",
   },
+  toggleStarredEmail:{
+    endpoint: "starred",
+    method: "POST",
+  },
+  deleteEmails:{
+    endpoint:'delete',
+    method: 'DELETE',
+  }
 };
